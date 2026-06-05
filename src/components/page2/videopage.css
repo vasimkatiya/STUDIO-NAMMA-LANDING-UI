@@ -1,10 +1,11 @@
 
 .v-page{
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: #1c1c1c;
     display: flex;
     justify-content: center;
+    /* padding-bottom: 26px; */
 }
 
 video{
@@ -14,7 +15,7 @@ video{
 @media (max-width:800px) {
     .v-page{
     max-width: 100%;
-    min-height: 60vh;
+    min-height: 30vh;
     background-color: #1c1c1c;
     display: flex;
     justify-content: center;

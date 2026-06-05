@@ -25,6 +25,7 @@ h1{
 
 @media (max-width:800px) {
     .page3{
+        padding: 0 1rem;
         min-height: 50vh;
     }
     p{
