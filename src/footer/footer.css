@@ -1,0 +1,27 @@
+
+footer{
+    display: flex;
+    background-color: #1c1c1c;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav > .links{
+        margin-bottom: 2rem;
+    }
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width:800px) {
+    footer{
+        justify-content: center;
+        gap: 2rem;
+    }
+}

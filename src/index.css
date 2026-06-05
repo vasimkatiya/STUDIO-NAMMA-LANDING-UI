@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cursor{
+  height: 40px;
+  width: 40px;
+  position:fixed;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 200;
+  background-color: rgb(38, 0, 255);
+  border-radius: 50%;
+}
+
+.load{
+  height: 100vh;
+  width: 100vw;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.load-vid{
+  width: 100%;
+  height: 100vh;
+}
+@media (max-width:800px) {
+  .cursor{
+    display: none;
+  }
+}

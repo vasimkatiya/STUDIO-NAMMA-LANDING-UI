@@ -1,0 +1,31 @@
+
+
+.hero{
+  margin-top: 3.2rem;
+  min-height: 80vh;
+  background-color:#1c1c1c ;
+  text-transform: uppercase;
+  padding: 4rem 0 8rem 0;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  h1{
+    font-size: 150px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width:800px) {
+  .hero > h1{
+    font-size: 55px;
+  }
+  .hero{
+    height: 50vh;
+  padding: 4rem 0 1rem 0;
+
+  }
+}

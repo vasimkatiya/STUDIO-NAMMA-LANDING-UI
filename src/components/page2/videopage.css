@@ -1,0 +1,22 @@
+
+.v-page{
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+}
+
+video{
+    width: 70%;
+}
+
+@media (max-width:800px) {
+    .v-page{
+    max-width: 100%;
+    min-height: 60vh;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+}
+}
