@@ -68,26 +68,26 @@ const VideoCard = () => {
         {
             className:'card-1',
             text:"matera",
-            img:"../public/img/img1.webp",
-            video:"../public/assets/v6.mp4"
+            img:"../img/img1.webp",
+            video:"../assets/v6.mp4"
         },
         {
             className:'card-2',
             text:"chance",
-            img:"../public/img/img2.webp",
-            video:"../public/assets/v1.mp4"
+            img:"../img/img2.webp",
+            video:"../assets/v1.mp4"
         },
         {
             className:'card-3',
             text:"intramuros",
-            img:"../public/img/img3.webp",
-            video:"../public/assets/v3.mp4"
+            img:"../img/img3.webp",
+            video:"../assets/v3.mp4"
         },
         {
             className:'card-4',
             text:"silvr",
-            img:"../public/img/img4.webp",
-            video:"../public/assets/v4.webm"
+            img:"../img/img4.webp",
+            video:"../assets/v4.webm"
         }
 
     ]

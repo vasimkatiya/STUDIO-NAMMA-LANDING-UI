@@ -9,6 +9,8 @@ import VideoCard from './components/videoCard/VideoCard';
 import HoverNav from './HoverNavigation/HoverNav';
 import LetsWork from './letsWork/LetsWork';
 import Footer from './footer/Footer';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const App = () => {
   const [open, setopen] = useState(false);
@@ -37,13 +39,22 @@ const App = () => {
     return () => {
       area.removeEventListener("mousemove",cursorEffect);
     }
-  }, 7000);
+  }, 2000);
   }, [])
   
+  useGSAP(()=>{
+    gsap.from("h3",{
+      y:500,
+      opacity:0,
+      duration:1,
+    })
+  })
+
 
   return (
     laoding ? <div className='load'>
-      <video className='load-vid' src="../public/assets/light-loading.mp4" autoPlay loop ></video>
+          <img src="../img/loading.png" alt="" />
+          <h3>preparing smooth experience</h3>
     </div> : <div ref={areaRef}>
       {
         open ? <Navbar open={open} setopen={setopen} /> :

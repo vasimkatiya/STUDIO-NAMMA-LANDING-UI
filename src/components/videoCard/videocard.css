@@ -40,7 +40,7 @@ img{
     border-radius: 1rem;
     opacity: 0;
     mix-blend-mode: none;
-    z-index: 300;
+    z-index: 500;
     position: fixed;
     text-align: center;
     color: white;

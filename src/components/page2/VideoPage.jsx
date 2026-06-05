@@ -26,7 +26,7 @@ const VideoPage = () => {
 
   return (
     <div className='v-page'>
-      <video className='main-vid' src="../public/assets/main.mp4" autoPlay muted loop ></video>
+      <video className='main-vid' src="../assets/main.mp4" autoPlay muted loop ></video>
     </div>
   )
 }
