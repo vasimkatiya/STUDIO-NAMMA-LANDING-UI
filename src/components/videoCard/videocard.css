@@ -65,6 +65,7 @@ img{
 @media (max-width:800px) {
     .video-card{
         width: 80vw;
+        height: 50vh;
         overflow: hidden;
 
     }
